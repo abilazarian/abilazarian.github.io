@@ -12,7 +12,7 @@
 
 
 
-<title>Ani’s awesome website</title>
+<title>Publications.utf8.md</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -20,9 +20,6 @@
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
-<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
-<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
-<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -253,63 +250,6 @@ $(document).ready(function () {
 
 
 
-<style type="text/css">
-
-#TOC {
-  margin: 25px 0px 20px 0px;
-}
-@media (max-width: 768px) {
-#TOC {
-  position: relative;
-  width: 100%;
-}
-}
-
-
-.toc-content {
-  padding-left: 30px;
-  padding-right: 40px;
-}
-
-div.main-container {
-  max-width: 1200px;
-}
-
-div.tocify {
-  width: 20%;
-  max-width: 260px;
-  max-height: 85%;
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  div.tocify {
-    width: 25%;
-  }
-}
-
-@media (max-width: 767px) {
-  div.tocify {
-    width: 100%;
-    max-width: none;
-  }
-}
-
-.tocify ul, .tocify li {
-  line-height: 20px;
-}
-
-.tocify-subheader .tocify-item {
-  font-size: 0.90em;
-}
-
-.tocify .list-group-item {
-  border-radius: 0px;
-}
-
-
-</style>
-
-
 
 </head>
 
@@ -317,16 +257,6 @@ div.tocify {
 
 
 <div class="container-fluid main-container">
-
-
-<!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row-fluid">
-<div class="col-xs-12 col-sm-4 col-md-3">
-<div id="TOC" class="tocify">
-</div>
-</div>
-
-<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -370,27 +300,19 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">Ani’s awesome website</h1>
 
 </div>
 
 
-<p>What is up yall I made this</p>
-<p><img src="cool.jpg" /></p>
-<p>You can learn about me <a href="About.html">here</a></p>
-<div id="this-took-longer-than-it-looks" class="section level1">
-<h1>this took longer than it looks</h1>
-<p><img src="http://giphygifs.s3.amazonaws.com/media/lMVNl6XxTvXgs/giphy.gif" /></p>
-</div>
-<div id="follow-me" class="section level1">
-<h1>Follow me</h1>
-<p>Here is my <a href="https://twitter.com/abilazarian">twitter</a> and <a href="https://www.linkedin.com/in/ani-bilazarian-844a3780/">linkedin</a></p>
-</div>
+<hr />
+<p>title: “Publications” author: “Ani Bilazarian” date: “10/20/2019” output: html_document: toc: true toc_float: true —</p>
+<p>Here are some publications, only one is peer reviewed, but that’s ok there will be more! Not about that “publish or perish” life!</p>
+<p>New England Journal of Medicine Catalyst: <a href="https://catalyst.nejm.org/patient-engagement-both-sides-bed/">Patient Engagement from Both Sides of the Bed</a></p>
+<p>The Journal of Nursing Administration: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5895115/">The Business, Ethics, and Quality Cases for Consumer Engagement in Nursing</a></p>
+<p>Future of Nursing, Campaign for Action: <a href="https://campaignforaction.org/two-doctoral-students-ask-why-dont-nurses-choose-nursing-first/">Two Doctoral Students Ask: Why Don’t Nurses Choose Nursing First</a></p>
 
 
 
-</div>
-</div>
 
 </div>
 
@@ -423,32 +345,6 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
-<script>
-$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
