@@ -4,13 +4,14 @@ output:
   html_document:
     toc: true
     toc_float: true
-    theme: cerulean
 ---
 
 
 What is up yall I made this
 
 ![](cool.jpg)
+
+You can learn about me [here](About.html)
 
 # this took longer than it looks 
 
