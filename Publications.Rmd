@@ -11,13 +11,18 @@ output:
 
 Here are some publications, only one is peer reviewed, but that's ok there will be more! 
 
-# Not about that "publish or perish" life! 
+## Not about that "publish or perish" life! 
 
 New England Journal of Medicine Catalyst:
+
 [Patient Engagement from Both Sides of the Bed](https://catalyst.nejm.org/patient-engagement-both-sides-bed/)
 
+
 The Journal of Nursing Administration: 
+
 [The Business, Ethics, and Quality Cases for Consumer Engagement in Nursing](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5895115/)
 
+
 Future of Nursing, Campaign for Action: 
+
 [Two Doctoral Students Ask: Why Don’t Nurses Choose Nursing First](https://campaignforaction.org/two-doctoral-students-ask-why-dont-nurses-choose-nursing-first/)
