@@ -6,7 +6,6 @@ output:
     toc_float: true
 ---
 
-
 What is up yall I made this
 
 ![](cool.jpg)
