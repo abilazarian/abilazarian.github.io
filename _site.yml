@@ -7,7 +7,7 @@ navbar:
       href: about.html
     - text: "Publications"
       href: Publications.html
-    - text: "FlexDashboard" 
+    - text: "Flexdashboard" 
       href: flexdashboard.html
     - icon: fa-envelope fa-lg
       href: mailto:<ab4797@cumc.columbia.edu>
