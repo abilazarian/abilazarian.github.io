@@ -1,7 +1,6 @@
 ---
 title: "Publications"
 author: "Ani Bilazarian"
-date: "10/20/2019"
 output: 
   html_document:
     toc: true

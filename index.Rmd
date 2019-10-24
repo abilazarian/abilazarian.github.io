@@ -1,31 +1,17 @@
 ---
-title: "Ani's awesome website"
+title: "Ani Bilazarian"
 output: 
   html_document:
     toc: true
     toc_float: true
 ---
 
-What is up yall I made this
+Welcome to my website! 
 
 ![](cool.jpg)
 
-You can learn about me [here](About.html)
 
-
-# Follow me
-
-Here is my [twitter](https://twitter.com/abilazarian) and [linkedin](https://www.linkedin.com/in/ani-bilazarian-844a3780/)
-
-
-# This took longer than it looks 
-
-![](http://giphygifs.s3.amazonaws.com/media/lMVNl6XxTvXgs/giphy.gif)
-
-
-# I love my Family 
-
-![](family.jpg)
+You can learn a bit about me [here](About.html), check out my recent [publications](Publications.html), or follow me on [twitter](https://twitter.com/abilazarian) and [linkedin](https://www.linkedin.com/in/ani-bilazarian-844a3780/)
 
 
 

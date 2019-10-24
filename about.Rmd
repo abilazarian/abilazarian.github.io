@@ -1,12 +1,113 @@
 ---
 title: "About Me"
 author: "Ani Bilazarian"
-date: "10/20/2019"
 output: 
   html_document:
     toc: true
     toc_float: true
 ---
 
+After receiving her Bachelor’s of Science from Georgetown University, Ani began working as a nurse at one of the busiest Trauma Centers in New York City. There she encountered the vast disparities in care and grew a passion for improving health care delivery for vulnerable populations. Ani’s current work in her PhD focuses on supporting older adults with chronic conditions who are the highest-need and highest-costing patients in US health care systems.
 
-My name is Ani, hey! 
+
+# CV
+
+## Education
+
+Columbia University, School of Nursing 					        	                 
+August 2018-Present
+PhD Candidate					                                                      New York, NY
+Jonas Scholar 
+GPA: 3.8
+
+Georgetown University, School of Nursing and Health Studies 					   
+Class of 2017
+Bachelor of Science in Nursing 						                              Washington D.C.
+
+## Public Health and Research Experience
+
+### Columbia University 												 
+October 2018-Present
+
+* Graduate Research Assistant, Dr. Maureen Georgee
+
+* Analyzed 80 patient visits at Federally Qualified Health Centers in Philadelphia using Grounded Theory methodology
+
+* Co-authored paper on patient-reported barriers to asthma management in African American patients 
+
+### Robert Wood Johnson Foundation		   						 	              
+June 2017- September 2017
+Nursing Fellow under Dr. Susan Hassmiller										             Princeton, NJ
+
+* Developed evidence-based paper surrounding the Nurse’s Role in Patient Engagement published in the Journal of Nursing Administration
+
+* Interviewed 30 Nurse Executives and Chief Nursing Officers leading patient engagement initiatives
+
+### Ariadne Labs at Harvard School of Public Health          					 	                
+May 2016-April 2017
+Research Assistant for Drs. Atul Gawande and Neel Shah   							     	  Boston, MA
+
+* Formulated evidence-based systematic review and abstracts for scientific paper, and performed qualitative data analysis
+
+* Work culminated in two scientific publications “Relationship Between Labor and Delivery Unit Management Practices and Maternal Outcomes” and “Designing Capacity for High Value Healthcare: The Impact of Design on Clinical Care in Childbirth”
+
+### Student Nurses Association							          				
+April 2016-May 2017
+President   												             Georgetown University
+
+* Led professional programs in nursing role development: flu-shot clinics, health fairs, student internship preparation, networking events, and fundraisers for Georgetown University Hospital Pediatric Clinic
+
+The Mary’s Center Health Clinic			                September 2015-May 2017
+Volunteer Health Educator					       Washington, D.C.
+
+* Created and taught health and wellness curriculum used by Georgetown nursing students for 40 inner city high school students on topics of: substance abuse, sexual education, mental and physical health, and nutrition
+
+## CLINICAL EXPERIENCE 
+
+### New York Presbyterian Weill Cornell, Trauma I Emergency Department		              
+November 2017-Present
+Staff Nurse					                           New York, NY
+
+* Maintained safe and effective treatment with various levels of patient acuity in a demanding environment 
+
+* Participated in unit and hospital-level research projects to improve efficiency and patient safety
+
+### George Washington University Hospital, Trauma I Emergency Department 			           
+January 2017-May 2017
+Nursing Practicum 				                      Washington, D.C.
+
+* Assisted in the care of traumas, cardiac arrests, stroke codes, sexual assaults, and conscious sedations
+
+*	Ensured total safety and best possible care under the direction of my preceptor 
+
+### Lawrence General Hospital, Trauma III Emergency Department		          
+May 2015-August 2015
+Trauma Technician 					            Lawrence, MA
+
+* Triaged and assisted in treating patients in trauma and critical care (Ranked 3rd in Pt admissions in Massachusetts)
+
+* Developed an understanding of multiple medical emergencies: Psychiatric, Cardiovascular, Obstetric, and Pediatrics
+
+### CURE Pediatric Neurosurgery Hospital 							                 	         
+March 2012 – April 2012
+Volunteer Medical Assistant											            Mbale, Uganda
+
+* Assisted medical staff in caring for patients with Hydrocephalus and Spina bifida in the role of a tech 
+
+
+## AWARDS AND DISTINCTIONS
+
+### Awards:  
+  Armenian Professional Society Scholarship (2019)
+  Armenian General Benevolent Union  Scholarship (2019)
+  FIGS #IAmANurse Grant Recipient (2019)
+	Jonas Scholarship Recipient (2018)
+	National Student Nurses Association Award  (2017)
+	Community Service Award  Georgetown University (2016)
+	American Education Leaders Organization National Contest, 1st Place (2015)
+	Head of School Award (2013)
+
+### Language: 
+Proficiency in Spanish and Armenian
+
+
