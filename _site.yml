@@ -10,7 +10,7 @@ navbar:
     - text: "Data Science"
       menu: 
       - text: "Plotly" 
-        href: plotly.html
+        href: plotly_class.html
       - text: "Flex Dashboard Homework #4"
       - href: dashboard1.html
     - icon: fa-envelope fa-lg

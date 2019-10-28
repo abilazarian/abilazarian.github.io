@@ -10,7 +10,6 @@ output:
 After receiving her Bachelor’s of Science from Georgetown University, Ani began working as a nurse at one of the busiest Trauma Centers in New York City. There she encountered the vast disparities in care and grew a passion for improving health care delivery for vulnerable populations. Ani’s current work in her PhD focuses on supporting older adults with chronic conditions who are the highest-need and highest-costing patients in US health care systems.
 
 
-# CV
 
 ## Education
 
@@ -62,7 +61,7 @@ Volunteer Health Educator					       Washington, D.C.
 
 * Created and taught health and wellness curriculum used by Georgetown nursing students for 40 inner city high school students on topics of: substance abuse, sexual education, mental and physical health, and nutrition
 
-## CLINICAL EXPERIENCE 
+## Clinical Experience 
 
 ### New York Presbyterian Weill Cornell, Trauma I Emergency Department		              
 November 2017-Present
@@ -95,16 +94,21 @@ Volunteer Medical Assistant											            Mbale, Uganda
 * Assisted medical staff in caring for patients with Hydrocephalus and Spina bifida in the role of a tech 
 
 
-## AWARDS AND DISTINCTIONS
-
 ### Awards:  
   Armenian Professional Society Scholarship (2019)
+  
   Armenian General Benevolent Union  Scholarship (2019)
+  
   FIGS #IAmANurse Grant Recipient (2019)
+  
 	Jonas Scholarship Recipient (2018)
+	
 	National Student Nurses Association Award  (2017)
+	
 	Community Service Award  Georgetown University (2016)
+	
 	American Education Leaders Organization National Contest, 1st Place (2015)
+	
 	Head of School Award (2013)
 
 ### Language: 
