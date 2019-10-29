@@ -1,5 +1,5 @@
 ---
-title: "flexdashboardhw4"
+title: "Flex Dashboard Homework 4"
 output: 
   flexdashboard::flex_dashboard:
     orientation: columns
@@ -10,11 +10,9 @@ output:
 ```{r setup, include=FALSE}
 library(flexdashboard)
 library(tidyverse)
-library(ggridges)
-library(patchwork)
+library(plotly)
 
 library(viridis)
-library(leaflet)
 
 knitr::opts_chunk$set(
 	echo = TRUE,
@@ -69,7 +67,6 @@ Row {data-width=350}
 This boxplot shows the distribution of hours for the top 10 most purchased products. 
 
 ```{r}
-library(plotly)
 highest_orders =
  instacart %>% 
   count(name, sort = TRUE) %>% 
@@ -81,11 +78,13 @@ inner_join(instacart, highest_orders, by = "name") %>%
   plot_ly(y = ~hour, color = ~name, colors = "Dark2", type = "box")
 ```
 
+Row {data-width=350}
+-----------------------------------------------------------------------
+
 ### Chart 2: Boxplot 2
 
 This additional boxplot shows the distribution of hours for a variety of aisles in order to 
 ```{r}
-line_df = 
   instacart %>% 
     filter(aisle %in% c("eggs", "lunch meat", "candy chocolate", "lunch meat", "cookies cakes", "fresh vegetables")) %>% 
   group_by(hour, aisle) %>% 
@@ -100,7 +99,7 @@ Row {data-width=350}
 
 ### Chart 3: Bar Plot 
 
-Plot showing the top 10 aisles where products are purchased from.
+This plot demonstrates the top 10 aisles where products are purchased from.
 
 ```{r}
  instacart %>% 

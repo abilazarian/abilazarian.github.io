@@ -1,31 +1,28 @@
 name: "Ani Website"
 output_dir: "."
-title: "Home"
-
 navbar:
-left:
-    - text: "About Me"
-      href: About.html
+  title: "Home"
+  left:
+    - text: "About"
+      href: about.html
     - text: "Publications"
       href: Publications.html
-    - text: "Data Science"
-      menu: 
-        - text: "Plotly" 
-          href: plotly_class.html
-        - text: "Flex Dashboard Homework #4"
-          href: flexdashboardhw4.html
-      
-right: 
+    - text: Data Science 
+      menu:
+      - text: "Plotly"
+        href: plotly_class.html
+      - text: "Flex Dashboard Homework 4"
+        href: flexdashboardhw4.html
     - icon: fa-envelope fa-lg
-      href: mailto:< ab4797@cumc.columbia.edu >
+      href: mailto:<ab4797@cumc.columbia.edu>
     - icon: fa-github fa-lg
       href: http://github.com/<abilazarian>/
-    - icon: ion-social-twitter 
+    - icon: fa-twitter fa-lg
       href: https://twitter.com/abilazarian
-    - icon: ion-social-linkedin
-      href: 'https://www.linkedin.com/in/ani-bilazarian-844a3780/'
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/ani-bilazarian-844a3780/  
       
 output:
   html_document:
     theme: flatly
-    css: style.css
+    css: 'styles.css'
