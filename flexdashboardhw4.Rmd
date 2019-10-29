@@ -1,0 +1,128 @@
+---
+title: "flexdashboardhw4"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(ggridges)
+library(patchwork)
+
+library(viridis)
+library(leaflet)
+
+knitr::opts_chunk$set(
+	echo = TRUE,
+	warning = FALSE,
+	fig.width = 8, 
+  fig.height = 6,
+  out.width = "90%")
+
+options(
+  ggplot2.continuous.colour = "viridis",
+  ggplot2.continuous.fill = "viridis")
+
+scale_colour_discrete = scale_colour_viridis_d
+scale_fill_discrete = scale_fill_viridis_d
+theme_set(theme_minimal() + theme(legend.position = "bottom"))
+
+```
+
+# Clean and Import Instacart Data
+
+```{r}
+instacart_data = 
+  library(p8105.datasets)
+data("instacart") 
+
+instacart = 
+  instacart %>% 
+  janitor::clean_names() %>% 
+  rename("day" = order_dow, "hour" = order_hour_of_day, "name" = product_name) %>% 
+  mutate(
+    name = as.factor(name),
+    aisle = as.factor(aisle),
+    day = as.factor(day)
+    ) %>% 
+   mutate(day = recode(day,
+                   '1' = "monday", 
+                   '2' = "tuesday", 
+                   '3' = "wednesday", 
+                   '4' = "thursday", 
+                   '5' = "friday",
+                   '6' = "saturday", 
+                   '0' = "sunday")) 
+
+```
+
+
+Row {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart 1: Boxplot
+
+This boxplot shows the distribution of hours for the top 10 most purchased products. 
+
+```{r}
+library(plotly)
+highest_orders =
+ instacart %>% 
+  count(name, sort = TRUE) %>% 
+  top_n(10) %>% 
+  select(name)
+
+inner_join(instacart, highest_orders, by = "name") %>% 
+  mutate(name = fct_reorder(name, hour)) %>% 
+  plot_ly(y = ~hour, color = ~name, colors = "Dark2", type = "box")
+```
+
+### Chart 2: Boxplot 2
+
+This additional boxplot shows the distribution of hours for a variety of aisles in order to 
+```{r}
+line_df = 
+  instacart %>% 
+    filter(aisle %in% c("eggs", "lunch meat", "candy chocolate", "lunch meat", "cookies cakes", "fresh vegetables")) %>% 
+  group_by(hour, aisle) %>% 
+  summarize(n = n()) %>% 
+  mutate(aisle = fct_reorder(aisle, hour)) %>% 
+  plot_ly(x = ~hour, color = ~aisle, type = "box", colors = "Set2")
+```
+
+
+Row {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart 3: Bar Plot 
+
+Plot showing the top 10 aisles where products are purchased from.
+
+```{r}
+ instacart %>% 
+  count(aisle, sort = TRUE) %>% 
+  top_n(10) %>% 
+  mutate(aisle = fct_reorder(aisle, n)) %>% 
+    plot_ly(x = ~aisle, y = ~n, color = ~aisle, colors = "Dark2", type = "bar", mode = "markers") 
+```
+
+
+### Chart 4: Scatterplot
+
+This plot shows the distribution of various wine and beer purchases across day of the week and hour of the day. It is possible to see that the distribution of wine purchases is pretty consistent across each day of the week, but the majority of purchases occur in the afternoon and evening. The only alcohol purchases on sudnay were India Pale Ale and Pinot Grigio which was surprising as I thought more beer would be purchased with football season upon us! 
+
+```{r}
+alc_plot = 
+  instacart %>% 
+  filter(name %in% c("Chardonnay California", "India Pale Ale", "Pinot Noir", "Bud Light Beer Cans")) %>% 
+  group_by(name, day, hour) %>% 
+summarize(n = n()) %>% 
+  ggplot(aes(x = day, y = hour, color = name)) + geom_violin() + coord_flip() + labs(x = "Day of the Week", y = "Hour of the Day", Title = "Distribution of Wine and Beer Purchases by day and hour of week")
+
+ggplotly(alc_plot)
+```
+

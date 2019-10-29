@@ -1,22 +1,31 @@
-name: "Yay internet!"
+name: "Ani Website"
 output_dir: "."
+title: "Home"
+
 navbar:
-  title: "Home"
-  right:
+left:
     - text: "About Me"
       href: About.html
     - text: "Publications"
       href: Publications.html
     - text: "Data Science"
       menu: 
-      - text: "Plotly" 
-        href: plotly_class.html
-      - text: "Flex Dashboard Homework #4"
-      - href: dashboard1.html
+        - text: "Plotly" 
+          href: plotly_class.html
+        - text: "Flex Dashboard Homework #4"
+          href: flexdashboardhw4.html
+      
+right: 
     - icon: fa-envelope fa-lg
-      href: mailto:<ab4797@cumc.columbia.edu>
+      href: mailto:< ab4797@cumc.columbia.edu >
     - icon: fa-github fa-lg
       href: http://github.com/<abilazarian>/
+    - icon: ion-social-twitter 
+      href: https://twitter.com/abilazarian
+    - icon: ion-social-linkedin
+      href: 'https://www.linkedin.com/in/ani-bilazarian-844a3780/'
+      
 output:
   html_document:
-    theme: cosmo
+    theme: flatly
+    css: style.css

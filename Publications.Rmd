@@ -8,20 +8,13 @@ output:
 
 ---
 
-Here are some publications, only one is peer reviewed, but that's ok there will be more! 
-
-## Not about that "publish or perish" life! 
-
-New England Journal of Medicine Catalyst:
-
-[Patient Engagement from Both Sides of the Bed](https://catalyst.nejm.org/patient-engagement-both-sides-bed/)
+New England Journal of Medicine Catalyst: [Patient Engagement from Both Sides of the Bed](https://catalyst.nejm.org/patient-engagement-both-sides-bed/)
 
 
-The Journal of Nursing Administration: 
-
-[The Business, Ethics, and Quality Cases for Consumer Engagement in Nursing](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5895115/)
+The Journal of Nursing Administration: [The Business, Ethics, and Quality Cases for Consumer Engagement in Nursing](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5895115/)
 
 
-Future of Nursing, Campaign for Action: 
+Future of Nursing, Campaign for Action: [Two Doctoral Students Ask: Why Don’t Nurses Choose Nursing First](https://campaignforaction.org/two-doctoral-students-ask-why-dont-nurses-choose-nursing-first/)
 
-[Two Doctoral Students Ask: Why Don’t Nurses Choose Nursing First](https://campaignforaction.org/two-doctoral-students-ask-why-dont-nurses-choose-nursing-first/)
+Obstetrics and Gynecology: [Measuring Variation in Design Among American Childbirth Facilities](https://www.researchgate.net/publication/316773547_Measuring_Variation_in_Design_Among_American_Childbirth_Facilities_11R)
+
