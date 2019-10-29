@@ -59,7 +59,7 @@ instacart =
 ```
 
 
-Row {data-width=350}
+Column
 -----------------------------------------------------------------------
 
 ### Chart 1: Boxplot
@@ -78,7 +78,7 @@ inner_join(instacart, highest_orders, by = "name") %>%
   plot_ly(y = ~hour, color = ~name, colors = "Dark2", type = "box")
 ```
 
-Row {data-width=350}
+Row
 -----------------------------------------------------------------------
 
 ### Chart 2: Boxplot 2
@@ -94,7 +94,7 @@ This additional boxplot shows the distribution of hours for a variety of aisles 
 ```
 
 
-Row {data-width=350}
+Column
 -----------------------------------------------------------------------
 
 ### Chart 3: Bar Plot 
