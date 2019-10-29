@@ -7,13 +7,11 @@ output:
     toc_float: true
 ---
 
+
 <link rel="stylesheet" href="styles.css" type="text/css">
 
-<img src="images/ani.png" style="width:25%; border:10px solid; margin-right: 20px" align="left">
+<img src="images/ani.png" style="width:30%; border:10px solid; margin-right: 20px" align="left">
 
-
-Welcome to my website! 
- 
 
 
 You can learn a bit about me [here](About.html), check out my recent
@@ -21,6 +19,11 @@ You can learn a bit about me [here](About.html), check out my recent
 [linkedin](https://www.linkedin.com/in/ani-bilazarian-844a3780/)
 
 
+
+
+
+
+Welcome to my website. I am an Emergency Department (ED) nurse and PhD student in Nursing and Health Policy at Columbia University. My dissertation focus is on reducing ED utilization in high-need high-cost patients through innovative care delivery models led by Nurse Practitioners at the primary care setting. 
 
 
 
