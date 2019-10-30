@@ -4,7 +4,6 @@ output:
   flexdashboard::flex_dashboard:
     orientation: columns
     vertical_layout: fill
-    code_folding: "hide"
 ---
 
 ```{r setup, include=FALSE}
@@ -39,11 +38,10 @@ instacart =
 ```
 
 
-Column {data-width = 500}
+Column {data-width=650}
 -----------------------------------------------------------------------
 
-### Chart 1: Box Plot
-
+### Chart A
 
 ```{r}
 highest_orders =
@@ -59,8 +57,7 @@ inner_join(instacart, highest_orders, by = "name") %>%
   layout(title = "Distribution of Most Frequent Orders by Hour")
 ```
 
-
-### Chart 2: Alternative Box Plot
+### Chart B
 
 ```{r}
   instacart %>% 
@@ -77,8 +74,7 @@ inner_join(instacart, highest_orders, by = "name") %>%
 Column {data-width = 500}
 -----------------------------------------------------------------------
 
-#### Chart 3: Bar Plot
-
+### Chart C
 
 ```{r}
  instacart %>% 
@@ -91,19 +87,20 @@ Column {data-width = 500}
 
 ```
 
-
 ### Chart D
-
 
 ```{r}
 alc_plot = 
   instacart %>% 
-  filter(name %in% c("Chardonnay California", "India Pale Ale", "Pinot Noir", "Bud Light Beer Cans")) %>% 
+  filter(name %in% c("Chardonnay California", "India Pale Ale", "Pinot Noir", "Brut Sparkling Wine", "Pinot Grigio Wine", "Bud Light Beer Cans", "Blue Ribbon Beer")) %>% 
   group_by(name, day, hour) %>% 
 summarize(n = n()) %>% 
-  ggplot(aes(x = day, y = hour, color = name)) + geom_violin() + coord_flip() + labs(x = "Day of the Week", y = "Hour of the Day", Title = "Distribution of Wine and Beer Purchases by day and hour of week") 
+  ggplot(aes(x = day, y = hour, color = name)) + geom_violin() + labs(x = "Day of the Week", y = "Hour of the Day", Title = "Distribution of Wine and Beer Purchases by day and hour of week")
 
-ggplotly(alc_plot)
+ggplotly(alc_plot) %>% 
+      layout(yaxis = list(title = "Day of the Week"), (xaxis = list(title = "Hour of the Day"))) %>% 
+  layout(title = "Alcohol Orders by Day and Hour")
+
 
 ```
 
