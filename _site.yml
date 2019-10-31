@@ -4,7 +4,7 @@ navbar:
   title: "Home"
   left:
     - text: "About"
-      href: about.html
+      href: About.html
     - text: "Publications"
       href: Publications.html
     - text: Data Science 

@@ -1,22 +1,22 @@
 ---
-title: "plotly"
+title: "Plotly"
 output: html_document
 toc: true
 toc_float: true
 code_folding: hide
 ---
 
-```{r setup, include=FALSE}
+```{r setup, include=FALSE, message = FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-```{r, message = FALSE}
+```{r, message = FALSE, echo = FALSE}
 library(tidyverse)
 library(viridis)
 library(plotly)
 ```
 
-```{r, message = FALSE}
+```{r, message = FALSE, echo = FALSE}
 # install.packages("devtools")
 devtools::install_github("p8105/p8105.datasets")
 instacart_data = 
@@ -26,7 +26,7 @@ data("instacart")
 
 # Let's make some plots !
 
-```{r}
+```{r, echo = FALSE}
 set.seed(1)
 
 data(nyc_airbnb)
@@ -42,11 +42,6 @@ nyc_airbnb =
     price %in% 100:500)  %>% 
   sample_n(5000)
 ```
-
-# Creating a Plot 
-
-Interface is different so no x and y 
-1) specify mappings from variables to things from dataset 
 
 
 ```{r}
