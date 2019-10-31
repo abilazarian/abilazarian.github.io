@@ -18,7 +18,7 @@ navbar:
     - icon: fa-envelope fa-lg
       href: mailto:<ab4797@cumc.columbia.edu>
     - icon: fa-github fa-lg
-      href: http://github.com/<abilazarian>/
+      href: https://github.com/abilazarian
     - icon: fa-twitter fa-lg
       href: https://twitter.com/abilazarian
     - icon: fa-linkedin fa-lg
