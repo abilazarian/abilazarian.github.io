@@ -13,17 +13,16 @@ output:
 <img src="images/ani.png" style="width:30%; border:10px solid; margin-right: 20px" align="left">
 
 
+I am an Emergency Department nurse and PhD student in Nursing and Health Policy at Columbia University. My dissertation focus is on reducing ED utilization in high-need high-cost patients through innovative care delivery models led by Nurse Practitioners at the primary care setting. 
+
+
+
+
 
 You can learn a bit about me [here](About.html), check out my recent
 [publications](Publications.html), or follow me on [twitter](https://twitter.com/abilazarian) and
 [linkedin](https://www.linkedin.com/in/ani-bilazarian-844a3780/)
 
-
-
-
-
-
-Welcome to my website. I am an Emergency Department (ED) nurse and PhD student in Nursing and Health Policy at Columbia University. My dissertation focus is on reducing ED utilization in high-need high-cost patients through innovative care delivery models led by Nurse Practitioners at the primary care setting. 
 
 
 
